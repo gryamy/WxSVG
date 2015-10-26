@@ -35,13 +35,13 @@
 只需在build.gradle添加如下代码，然后进行编译即可切换不同的支持方式
 
     WxSVG {
-        open false   		// if false, you'll render .svg in runtime with libwechatsvg.so
+        open false   		// If false, you'll render .svg in runtime with libwechatsvg.so. Default is true
     }
 
 此外还支持的一些属性
 
     WxSVG {
-        open false   		// if false, you'll render .svg in runtime with libwechatsvg.so
+        open false   		// If false, you'll render .svg in runtime with libwechatsvg.so
         verbose false		// 是否开启verbose日志
         clean()				// 是否clean生成代码的目录
         ...
