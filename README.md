@@ -14,10 +14,10 @@
         }
     }
     repositories {
-            maven {
-                url uri('https://raw.githubusercontent.com/gryamy/WxSVG/master/maven/')
-            }
+        maven {
+            url uri('https://raw.githubusercontent.com/gryamy/WxSVG/master/maven/')
         }
+    }
     dependencies {
         compile 'com.tencent.mm:WxSVGLibrary:0.5'
     }
